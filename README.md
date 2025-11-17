@@ -70,19 +70,22 @@ docker build -t atuljkamble/snake-game .
 ### 📤 Push the Docker Image (optional)
 
 ```bash
-docker push atuljkamble/snake-game
+docker push kunalb96/snake-game
 ```
 
 ### 📥 Pull the Docker Image
 
 ```bash
-docker pull atuljkamble/snake-game
+docker pull kunalb96/snake-game
 ```
 
 ### 🚀 Run the Docker Container
 
 ```bash
-docker run -d -p 80:80 atuljkamble/snake-game
+docker run -d -p 80:80 kunalb96/snake-game
+
+or
+docker run -d -p 80:80 docker.io/kunalb96/snake-game
 ```
 
 ---
@@ -130,20 +133,3 @@ docker-compose down
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-## 👨‍💻 Author
-
-**Atul Kamble**
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
-- 🐙 [GitHub](https://github.com/atulkamble)
-- 🐦 [X](https://x.com/Atul_Kamble)
-- 📷 [Instagram](https://www.instagram.com/atuljkamble)
-- 🌐 [Website](https://www.atulkamble.in)
-
----
-
-
-## 🙌 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
